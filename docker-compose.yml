@@ -1,0 +1,13 @@
+version: "2.3"
+services:
+  notebook:
+    build: .
+    volumes:
+      - .:/src/lurz2020
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
+    network_mode: "host"
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0
+    runtime: nvidia
