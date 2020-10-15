@@ -20,7 +20,7 @@ Go to a folder of your choice and type the following commands in a [shell of you
 git clone https://github.com/sinzlab/Lurz_2020_code.git
 
 # get the data
-cd Lurz_2020_core/notebooks/data
+cd Lurz_2020_code/notebooks/data
 gin get cajal/Lurz2020 # might take a while; fast internet recommended
 cd -
 
