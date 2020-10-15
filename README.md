@@ -25,6 +25,7 @@ gin get cajal/Lurz2020 # might take a while; fast internet recommended
 cd -
 
 # create docker container (possibly you need sudo)
+cd Lurz_2020_code/
 docker-compose run notebook
 ```
 
