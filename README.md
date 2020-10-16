@@ -31,6 +31,6 @@ docker-compose run notebook
 ```
 
 Now you should be able to access the jupyter notebooks via `YOURCOMPUTER:8888` in the browser. 
-The data you downloaded is the test animal (Figure 5 in the paper) that we tested our transfer cores on. Our best transfer core (11-S in the paper, orange line) is in `Lurz_2020_core/notebooks/models` and can be loaded as described in `Lurz_2020_core/notebooks/example.ipynb`.
+The data you downloaded is from the test animal (Figure 5 in the paper) that we tested our transfer cores on. The weights from our best transfer core (11-S in the paper, orange line) are stored in `Lurz_2020_core/notebooks/models` and can be loaded as described in `Lurz_2020_core/notebooks/example.ipynb`.
 
 If you want to predict your own data with our core, copy the data to the folder `Lurz_2020_core/notebooks/data`.
