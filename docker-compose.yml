@@ -5,7 +5,6 @@ services:
     volumes:
       - .:/src/lurz2020
       - ./notebooks:/notebooks
-      - /var/sinz-shared/mouse/toliaslab/static:/notebooks/data
     ports:
       - "8888:8888"
     network_mode: "host"
