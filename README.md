@@ -1,5 +1,7 @@
 # Generalization in data-driven models of primary visual cortex (Code)
-Code base for "Generalization in data-driven models of primary visual cortex", Lurz et al. 2020
+Code base for "Generalization in data-driven models of primary visual cortex", Lurz et al. ICLR 2021 
+Paper: https://openreview.net/forum?id=Tp7kI90Htd
+Data: https://gin.g-node.org/cajal/Lurz2020
 
 ## Requirements
 
